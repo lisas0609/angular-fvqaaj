@@ -9,7 +9,7 @@ export class SabwCaesarComponent implements OnInit {
 zahl = 12;
 
 dreheScheibe(){
-
+ console.log('Hallo');
 }
   constructor() { }
 

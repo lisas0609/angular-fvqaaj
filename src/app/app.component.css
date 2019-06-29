@@ -4,12 +4,12 @@ h1 {
 #ulf {
 border: 3px solid rgb(0, 204, 255);
 width: 220px;
-color: purple;
+color: rgba(128, 0, 128, 0.603);
 }
 #lal {
 border: 3px solid rgb(0, 204, 255);
 width: 220px;
-color: purple;
+color: rgba(128, 0, 128, 0.575);
 }
 #lol {
 width: 300px;

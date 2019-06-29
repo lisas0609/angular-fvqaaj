@@ -10,7 +10,8 @@ zahl = 12;
 rotation = 'rotate(318.46deg)';
 
 dreheScheibe(){
- console.log(this.zahl);
+  let deg = 360-360/26*this.zahl;
+ this.rotation='rotate('+deg+'deg)'
 }
   constructor() { }
 

@@ -1,10 +1,12 @@
 #scheibe {
   width: 300px;
   position: absolute;
+  
 }
 #scheibe_innen {
   width: 300px;
   position: absolute;
+  transform: rotate(318.5deg)
   }
 #container {
   height: 300px;

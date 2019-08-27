@@ -1,19 +1,2 @@
-h1 {
-  color: rgba(0, 47, 255, 0.575);
-}
-#ulf {
-border: 3px solid rgb(0, 204, 255);
-width: 220px;
-color: rgba(128, 0, 128, 0.603);
-}
-#lal {
-border: 3px solid rgb(0, 204, 255);
-width: 220px;
-color: rgba(128, 0, 128, 0.575);
-}
-#lol {
-width: 300px;
-transform: rotate(180deg);
-color: blueviolet;
-}
+
 

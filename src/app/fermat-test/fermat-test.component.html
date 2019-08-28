@@ -1,10 +1,12 @@
 <h1>Fermat-Test</h1>
 
 <form>
- Versuchskaninchen <input name="Versuchskaninchen" [(ngModel)]="Versuchskaninchen"/>
+ Versuchskaninchen <input name="Versuchskaninchen" [(ngModel)]="Versuchskaninchen" type="number" /> 
   <p> </p> 
- Anzahl an Tests <input name="Testanzahl" [(ngModel)]="Testanzahl"/>
- <br /> <button (click)="fermattest()" >Prüfe!</button> 
+ Anzahl an Tests <input name="Testanzahl" [(ngModel)]="Testanzahl" type="number"/>
+ <br /> 
+
+ <button (click)="fermattest()" >Prüfe!</button> 
 
 
  </form>

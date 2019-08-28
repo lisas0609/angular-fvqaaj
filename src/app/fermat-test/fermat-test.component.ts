@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FermatTestComponent implements OnInit {
   Versuchskaninchen: number = 13;
-  Testanzahl: number = 3;
+  Testanzahl: number ;
   Ergebnis = 'Ergebnis noch nicht berechnet';
 
   constructor() { }
@@ -23,8 +23,9 @@ export class FermatTestComponent implements OnInit {
       let zwischenergebnis = 1;
       for (let i = 0; i < this.Versuchskaninchen - 1; i++) {
         zwischenergebnis = zwischenergebnis * zeuge;
+zwischenergebnis = zwischenergebnis % this.Versuchskaninchen;
       }
-      zwischenergebnis = zwischenergebnis % this.Versuchskaninchen;
+      
       if (zwischenergebnis === 1) {
         this.Ergebnis += 'Zeuge ' + zeuge + ' OK... ';
       } else {
